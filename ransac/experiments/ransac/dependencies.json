@@ -1,0 +1,6 @@
+{
+    "dependencies": [
+        "https://github.com/oalee/image-stitching-ransac/tree/main/ransac/models/ransac"
+    ],
+    "env": {}
+}

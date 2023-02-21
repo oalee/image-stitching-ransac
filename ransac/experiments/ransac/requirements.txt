@@ -1,0 +1,2 @@
+yerbamate~=0.9.21
+matplotlib~=3.6.2
