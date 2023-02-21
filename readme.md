@@ -17,9 +17,9 @@ pip install yerbamate
 Then, run the following command to install the experiment into your project:
 
 ```
-mate install https://github.com/oalee/image-stitching-ransac/ransac/experiments/ransac -yo pip
+mate install https://github.com/oalee/image-stitching-ransac/tree/main/ransac/experiments/ransac -yo pip
 # or conda
-mate install https://github.com/oalee/image-stitching-ransac/ransac/experiments/ransac -yo pip
+mate install https://github.com/oalee/image-stitching-ransac/tree/main/ransac/experiments/ransac -yo conda
 
 ```
 
