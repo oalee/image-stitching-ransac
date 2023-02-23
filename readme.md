@@ -6,6 +6,14 @@ This is a python implementation of image stitching using RANSAC. The code is bas
 [1] David G. Lowe, "Distinctive image features from scale-invariant keypoints," International Journal of Computer Vision, vol. 60, no. 2, pp. 91-110, 2004.
 
 
+## Exported code modules
+You can use Yerbamaté to directly install the code from this repository into your project. The following modules are exported:
+|    | type        | name   | url                                                                                 | short_url                                              | dependencies                                                                                                                 |
+|----|-------------|--------|-------------------------------------------------------------------------------------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| 0  | models      | ransac | https://github.com/oalee/image-stitching-ransac/tree/main/ransac/models/ransac      | oalee/image-stitching-ransac/ransac/models/ransac      | ['opencv_contrib_python~=4.7.0.68', 'numpy~=1.24.2', 'scikit_image~=0.19.3', 'matplotlib~=3.6.2', 'scipy~=1.9.1']            |
+| 1  | experiments | ransac | https://github.com/oalee/image-stitching-ransac/tree/main/ransac/experiments/ransac | oalee/image-stitching-ransac/ransac/experiments/ransac | ['yerbamate~=0.9.21', 'matplotlib~=3.6.2', 'https://github.com/oalee/image-stitching-ransac/tree/main/ransac/models/ransac'] |
+
+
 # Requirements
 To run the script, you can either install the required packages located in `ransac/experiments/ransac/requirements.txt` and `ransac/models/ransac/requirements.txt` or use [Yerbmaté](github.com/oalee/yerbamate):
 
@@ -41,13 +49,6 @@ The following environment variables are used by the experiment:
 You can set the enviroment variables in shell or in a `env.json` file.
 
 
-
-## Exported code modules
-You can use Yerbamaté to directly install the code from this repository into your project. The following modules are exported:
-|    | type        | name   | url                                                                                 | short_url                                              | dependencies                                                                                                                 |
-|----|-------------|--------|-------------------------------------------------------------------------------------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| 0  | models      | ransac | https://github.com/oalee/image-stitching-ransac/tree/main/ransac/models/ransac      | oalee/image-stitching-ransac/ransac/models/ransac      | ['opencv_contrib_python~=4.7.0.68', 'numpy~=1.24.2', 'scikit_image~=0.19.3', 'matplotlib~=3.6.2', 'scipy~=1.9.1']            |
-| 1  | experiments | ransac | https://github.com/oalee/image-stitching-ransac/tree/main/ransac/experiments/ransac | oalee/image-stitching-ransac/ransac/experiments/ransac | ['yerbamate~=0.9.21', 'matplotlib~=3.6.2', 'https://github.com/oalee/image-stitching-ransac/tree/main/ransac/models/ransac'] |
 
 <!-- 
 
